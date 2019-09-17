@@ -1,0 +1,13 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Latitude]
+      ,[Longitude]
+      ,[Address_locate]
+      ,[Floor_locate]
+      ,[Resident]
+      ,[Thermal Digital Details]
+      ,[Voice_Details]
+      ,[Message sent time]
+      ,[Postal Code]
+      ,[Number of Victims]
+      ,[row_id]
+  FROM [SMART_HOME_EMERGENCY].[dbo].[messager]
